@@ -1,0 +1,79 @@
+header {
+	width: 1002px;
+	height: 132px;
+	margin: 0 auto;
+	border-bottom: 5px solid blue;
+	background-image: url(../images/bg.png);
+	background-size: cover;
+}
+
+.logo {
+	float: left;
+}
+
+
+
+.banner {
+	padding-top: 39px;
+}
+
+.phone {
+	float: right;
+}
+
+/* for fun*/
+.forfun .left {
+	position: fixed;
+	left: 70px;
+	top: 5px;
+}
+
+.forfun .right {
+	position: fixed;
+	right: 70px;
+	top: 5px;
+}
+/*  foot部分 */
+footer {
+	height: 203px;
+	width: 1002px;
+	border-top: 2px solid #ccc;
+	margin: 0 auto;
+	font-size: 10pt;
+	background: -webkit-linear-gradient(top,rgb(185,201,226),rgb(225,225,225));
+	background: linear-gradient(top,rgb(185,201,226),rgb(225,225,225));
+}
+
+.foot-list {
+	list-style: none;
+	height: 20px;
+	padding-left: 190px;
+}
+
+.foot-list li {
+	float: left;
+	margin-left: 20px;
+}
+
+.foot-list li a {
+	text-decoration: none;
+	color: #7d6e6e;
+}
+
+.foot-list li a:hover {
+	text-decoration: underline;
+}
+
+.foot-text p {
+	text-align: center;
+	line-height: 20px;
+}
+
+.foot-text span {
+	color: #7d6e6e;
+}
+
+.other img{
+	margin: 0 auto;
+	display: block;
+}
